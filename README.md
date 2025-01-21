@@ -5,6 +5,7 @@ Circuit Description:
 The 6T SRAM cell uses six transistors (two cross-coupled inverters and two access transistors) to store a single bit of data. The design focuses on read/write stability, power efficiency, and performance in memory applications.
 Schematic:
 The 6T SRAM cell schematic was created in 90 nm technology using Cadence Virtuoso. Describe how the cell performs read and write operations and the role of each transistor in data retention. 
+
 ![image](https://github.com/user-attachments/assets/954eed8e-d683-47fc-9666-0537de4c553d)
 
 EDA Tool Setup:
@@ -26,10 +27,13 @@ Experimental Results:
 
 4.	Power Dissipation: Pdyanmic = 51.3e-6,  
 dynamic Power Dissipation of CMOS:
+
 ![image](https://github.com/user-attachments/assets/6b0cdb7b-1a84-4267-a8b7-0e96d693f858)
 
-Static Power Dissipation of CMOS:
+Static Power Dissipation of CMOS:'
+
 ![image](https://github.com/user-attachments/assets/206e7868-4da2-4710-a243-ec5a7c37bd2e)
+
 5.	delay:   20.3e-9
 6.	PVT Analysis:
 o	Use 180 nm and 65 nm process parameters.
@@ -41,15 +45,19 @@ o	Evaluate the SRAM cell's stability under varying conditions.
 
 LAYOUT DESIGN – 
 Circuit design - 
+
 ![image](https://github.com/user-attachments/assets/8c017847-3a9a-45f0-9ab7-0988244626db)
 
 Layout design - 
+
 ![image](https://github.com/user-attachments/assets/d60298f6-b15f-4cf9-82a9-d89e91e4b137)
 
 DRC CHECK
+
 ![image](https://github.com/user-attachments/assets/ecd52a9f-31fd-476b-9c59-cc36480a78f5)
 
 LVS CHECK
+
 ![image](https://github.com/user-attachments/assets/e5e21deb-00cb-4e71-a831-1cf444481527)
 
 Observations:
